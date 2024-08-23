@@ -9,7 +9,7 @@ function About() {
             <div className="profile-img">
               <div className="img rounded-lg">
               <video autoPlay muted className="w-full  h-full object-cover " >
-                <source src="/videos/intro.mp4" type="video/mp4" />
+                <source src="https://res.cloudinary.com/storeino-academy/video/upload/v1724442497/intro_lckanl.mp4" type="video/mp4" />
               </video>              
               </div>
               <span className="icon">

@@ -44,7 +44,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bord">
       <div className="container o-hidden">
         <Link className="logo icon-img-100" href="/">
-          <img src="/assets/imgs/header/logo_rwcw.png" alt="logo" />
+          <img src="/assets/imgs/logo_rwcw.png" alt="logo" />
         </Link>
 
         <button

@@ -94,7 +94,7 @@ function Portfolio() {
               <div className="col-lg-7">
                 <div className="img">
                 <video controls poster="/assets/imgs/works/1/cover_1.jpg" className="w-full h-full object-cover " >
-                <source src="/videos/intro.mp4" type="video/mp4" />
+                <source src="https://res.cloudinary.com/storeino-academy/video/upload/v1724442497/intro_lckanl.mp4" type="video/mp4" />
               </video>                 
               </div>
               </div>
@@ -119,7 +119,7 @@ function Portfolio() {
               <div className="col-lg-7">
                 <div className="img" style={{ width: 'inherit' }}>
                 <video controls poster="/assets/imgs/works/1/cover_2.jpg" className="w-full h-full object-cover " >
-                <source src="/videos/photo_session.mp4" type="video/mp4" />
+                <source src="https://res.cloudinary.com/storeino-academy/video/upload/v1724442686/photo_session_bfihzr.mp4" type="video/mp4" />
               </video>                  
               </div>
               </div>
@@ -144,7 +144,7 @@ function Portfolio() {
               <div className="col-lg-7">
               <div className="img" style={{ width: 'inherit' }}>
                 <video controls poster="/assets/imgs/works/1/cover_3.jpg" className="w-full h-full object-cover " >
-                <source src="/videos/istanbul.mp4" type="video/mp4" />
+                <source src="https://res.cloudinary.com/storeino-academy/video/upload/v1724442954/istanbul_adoj47.mp4" type="video/mp4" />
               </video>                  
               </div>
               </div>

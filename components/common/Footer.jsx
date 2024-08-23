@@ -8,7 +8,7 @@ function Footer() {
         <div className="row justify-content-between">
           <div className="col-lg-2">
             <Link href='/' className="logo icon-img-100 md-mb80">
-              <img src="/assets/imgs/header/logo_rwcw.png" alt="" />
+              <img src="/assets/imgs/logo_rwcw.png" alt="" />
             </Link>
           </div>
           <div className="col-lg-4">

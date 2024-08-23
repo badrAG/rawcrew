@@ -22,7 +22,7 @@ function Header() {
   return (
     <div
       className="header header-personal valign bg-img"
-      data-background="/assets/imgs/header/hero-6-1.jpg"
+      data-background="/assets/imgs/hero-6-1.jpg"
       data-overlay-dark="2"
     >
       <div className="container ontop">
@@ -31,7 +31,7 @@ function Header() {
             <div className="caption">
               <h6 className="mb-15">
                 <span className="icon-img-30 mr-10">
-                  <img src="/assets/imgs/header/hi.png" alt="" />
+                  <img src="/assets/imgs/hi.png" alt="" />
                 </span>{' '}
                 Hello! there
               </h6>
