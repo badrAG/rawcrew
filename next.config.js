@@ -5,7 +5,14 @@ const path = require('path');
 
 const nextConfig = {
   output: 'export',
-
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+      },
+    ],
+  },
   reactStrictMode: false,
   sassOptions: {
     includePaths: [path.join(__dirname, 'css')],
@@ -18,5 +25,4 @@ const nextConfig = {
     ignoreDuringBuilds: false,
   },
 };
-
 module.exports = withNextVideo(nextConfig);

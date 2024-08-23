@@ -22,7 +22,7 @@ function Header() {
   return (
     <div
       className="header header-personal valign bg-img"
-      data-background="/assets/imgs/header/hero-6-1.jpg"
+      data-background="https://res.cloudinary.com/storeino-academy/image/upload/v1724448036/hero-6-1_tdgz4x.png"
       data-overlay-dark="2"
     >
       <div className="container ontop">
@@ -31,7 +31,7 @@ function Header() {
             <div className="caption">
               <h6 className="mb-15">
                 <span className="icon-img-30 mr-10">
-                  <img src="/assets/imgs/header/hi.png" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448026/hi_afgmpz.png" alt="" />
                 </span>{' '}
                 Hello! there
               </h6>
@@ -56,7 +56,7 @@ function Header() {
                     </Link>
                     <div className="icon-img-60 ml-20">
                       <img
-                        src="/assets/imgs/icon-img/arrow-down-big.png"
+                        src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448175/arrow-down-big_eizhlo.png"
                         alt=""
                       />
                     </div>

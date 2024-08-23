@@ -29,7 +29,7 @@ function Services() {
           <div className="col-lg-4">
             <div className="item sub-bg md-mb30">
               <div className="icon-img-60 opacity-5 mb-40">
-                <img src="/assets/imgs/serv-icons/3.png" alt="" />
+                <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448445/5_gtz2p9.png" alt="" />
               </div>
               <h5>Broadcast Production</h5>
               <div className="text mt-40">
@@ -48,7 +48,7 @@ function Services() {
           <div className="col-lg-4">
             <div className="item sub-bg md-mb30">
               <div className="icon-img-60 opacity-5 mb-40">
-                <img src="/assets/imgs/serv-icons/4.png" alt="" />
+                <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448444/3_o3tivd.png" alt="" />
               </div>
               <h5>Media Content Creation</h5>
               <div className="text mt-40">
@@ -68,7 +68,7 @@ function Services() {
           <div className="col-lg-4">
             <div className="item sub-bg">
               <div className="icon-img-60 opacity-5 mb-40">
-                <img src="/assets/imgs/serv-icons/5.png" alt="" />
+                <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448444/4_ln2nin.png" alt="" />
               </div>
               <h5>Animation & Motion Graphics</h5>
               <div className="text mt-40">

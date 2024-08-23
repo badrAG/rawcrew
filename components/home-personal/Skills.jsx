@@ -19,7 +19,7 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s1.png" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448499/s1_vaum4d.png" alt="" />
                 </div>
                 <span className="value">95%</span>
               </div>
@@ -30,7 +30,7 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s2.png" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448498/s2_dhslix.png" alt="" />
                 </div>
                 <span className="value">90%</span>
               </div>
@@ -41,7 +41,7 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s3.png" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448498/s6_pwnkzh.png" alt="" />
                 </div>
                 <span className="value">85%</span>
               </div>
@@ -52,7 +52,7 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s5.png" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448498/s4_qn27hq.png" alt="" />
                 </div>
                 <span className="value">84%</span>
               </div>
@@ -63,7 +63,7 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s4.png" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448498/s5_sqvsfy.png" alt="" />
                 </div>
                 <span className="value">78%</span>
               </div>
@@ -74,7 +74,7 @@ function Skills() {
             <div className="item mb-30">
               <div className="box-bord">
                 <div className="img">
-                  <img src="/assets/imgs/resume/s6.png" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448497/s3_ipwd29.png" alt="" />
                 </div>
                 <span className="value">85%</span>
               </div>

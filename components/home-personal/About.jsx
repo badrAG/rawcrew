@@ -13,16 +13,16 @@ function About() {
               </video>              
               </div>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon1.png" alt="" />
+                <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448251/icon2_h8l9jk.png" alt="" />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon2.png" alt="" />
+                <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448251/icon1_ahpqcz.png" alt="" />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon3.png" alt="" />
+                <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448251/icon4_mlfgco.png" alt="" />
               </span>
               <span className="icon">
-                <img src="/assets/imgs/resume/icon4.png" alt="" />
+                <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448251/icon3_fi5dd7.png" alt="" />
               </span>
             </div>
           </div>
@@ -53,7 +53,7 @@ function About() {
                         </div>
                         <div className="ml-auto">
                           <div className="icon-img-40">
-                            <img src="/assets/imgs/arw0.png" alt="" />
+                            <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448017/arw0_dmiveg.png" alt="" />
                           </div>
                         </div>
                       </div>
@@ -68,7 +68,7 @@ function About() {
                         </div>
                         <div className="ml-auto">
                           <div className="icon-img-40">
-                            <img src="/assets/imgs/arw0.png" alt="" />
+                            <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448017/arw0_dmiveg.png" alt="" />
                           </div>
                         </div>
                       </div>

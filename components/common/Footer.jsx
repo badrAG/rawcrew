@@ -8,7 +8,7 @@ function Footer() {
         <div className="row justify-content-between">
           <div className="col-lg-2">
             <Link href='/' className="logo icon-img-100 md-mb80">
-              <img src="/assets/imgs/header/logo_rwcw.png" alt="" />
+              <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448029/logo_rwcw_lmpn08.png" alt="" />
             </Link>
           </div>
           <div className="col-lg-4">
@@ -85,7 +85,7 @@ function Footer() {
         </div>
       </div>
       <div className="circle-blur">
-        <img src="/assets/imgs/patterns/blur1.png" alt="" />
+        <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448633/blur1_knxstn.png" alt="" />
       </div>
     </footer>
   );

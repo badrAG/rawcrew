@@ -44,7 +44,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bord">
       <div className="container o-hidden">
         <Link className="logo icon-img-100" href="/">
-          <img src="/assets/imgs/logo_rwcw.png" alt="logo" />
+          <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448029/logo_rwcw_lmpn08.png" alt="logo" />
         </Link>
 
         <button
