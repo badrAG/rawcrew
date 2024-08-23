@@ -56,35 +56,35 @@ function Clients() {
             <SwiperSlide>
               <div className="item flex justify-center items-center">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c1.svg" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724449346/c3_qnarns.svg" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item flex justify-center items-center">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c2.svg" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724449345/c1_dcfyo0.svg" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item flex justify-center items-center">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c3.svg" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724449346/c2_s3vxzh.svg" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item flex justify-center items-center">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c4.svg" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724449345/c5_wx33nf.svg" alt="" />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="item flex justify-center items-center">
                 <div className="img icon-img-100">
-                  <img src="/assets/imgs/brands/c5.svg" alt="" />
+                  <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724449345/c4_rwtdcb.svg" alt="" />
                 </div>
               </div>
             </SwiperSlide>

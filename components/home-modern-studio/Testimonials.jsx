@@ -83,7 +83,7 @@ function Testimonials() {
                   <div className="d-flex align-items-center">
                     <div>
                       <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t2.jpg" alt="" />
+                        <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724449529/t4_nzlq8j.jpg" alt="" />
                       </div>
                     </div>
                     <div className="ml-20">
@@ -112,7 +112,7 @@ function Testimonials() {
                   <div className="d-flex align-items-center">
                     <div>
                       <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t3.jpg" alt="" />
+                        <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724449528/t3_ros3nc.jpg" alt="" />
                       </div>
                     </div>
                     <div className="ml-20">
@@ -140,7 +140,7 @@ function Testimonials() {
                   <div className="d-flex align-items-center">
                     <div>
                       <div className="img fit-img">
-                        <img src="/assets/imgs/testim/t4.jpg" alt="" />
+                        <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724449528/t2_qpaw0w.jpg" alt="" />
                       </div>
                     </div>
                     <div className="ml-20">
