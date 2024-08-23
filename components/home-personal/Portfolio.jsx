@@ -136,7 +136,7 @@ function Portfolio() {
                   </div>
                   <div>
                     <p>
-                    Experience the captivating blend of history and modernity in our latest video showcasing the vibrant city of Istanbul. Through carefully crafted edits, we take you on a journey through the city's iconic landmarks, bustling streets, and serene waters. From the majestic domes of the Hagia Sophia to the lively bazaars and the scenic Bosphorus, this video captures the essence of a city that stands at the crossroads of East and West. Join us in exploring the sights and sounds of Istanbul, where every corner tells a story.
+                    Experience the captivating blend of history and modernity in our latest video showcasing the vibrant city of Istanbul. Through carefully crafted edits, we take you on a journey through the city&apos;s iconic landmarks, bustling streets, and serene waters. From the majestic domes of the Hagia Sophia to the lively bazaars and the scenic Bosphorus, this video captures the essence of a city that stands at the crossroads of East and West. Join us in exploring the sights and sounds of Istanbul, where every corner tells a story.
                     </p>
                   </div>
                 </div>

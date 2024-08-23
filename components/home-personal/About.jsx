@@ -38,7 +38,7 @@ function About() {
                   specializing in creating impactful content from start to finish.
                 </h4>
                 <p>
-                We employ a comprehensive and holistic approach to every project, ensuring that every detail is meticulously crafted. Whether it's television, film, digital media, or live events, our goal is to bring your vision to life in the most creative and effective way possible.
+                We employ a comprehensive and holistic approach to every project, ensuring that every detail is meticulously crafted. Whether it&apos;s television, film, digital media, or live events, our goal is to bring your vision to life in the most creative and effective way possible.
                 </p>
 
                 <div className="numbers mt-50">
