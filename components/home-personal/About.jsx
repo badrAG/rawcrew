@@ -8,7 +8,7 @@ function About() {
           <div className="col-lg-5 valign">
             <div className="profile-img">
               <div className="img rounded-lg">
-              <video autoPlay muted className="w-full  h-full object-cover " >
+              <video autoPlay muted loop className="w-full h-full object-cover " >
                 <source src="https://res.cloudinary.com/storeino-academy/video/upload/v1724442497/intro_lckanl.mp4" type="video/mp4" />
               </video>              
               </div>

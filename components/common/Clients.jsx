@@ -10,17 +10,23 @@ function Clients() {
     spaceBetween: 40,
     centeredSlides: true,
     breakpoints: {
+      240: {
+        loop: true,
+        slidesPerView: 2,
+        spaceBetween: 20,
+        centeredSlides: false,
+      },
       // when window width is >= 640px
       640: {
         loop: true,
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 20,
         centeredSlides: false,
       },
       // when window width is >= 768px
       600: {
         loop: true,
-        slidesPerView: 3,
+        slidesPerView: 4,
         spaceBetween: 30,
         centeredSlides: false,
       },
@@ -46,11 +52,11 @@ function Clients() {
             </div>
           </div>
         </div>
-        <div className="swiper5" data-carousel="swiper">
+        <div className="swiper5 " data-carousel="swiper">
           <Swiper
             {...swiperOptions}
             id="content-carousel-container-unq-clients"
-            className="swiper-container"
+            className="swiper-container "
             data-swiper="container"
           >
             <SwiperSlide>
