@@ -1,18 +1,7 @@
 'use client'
-import { useEffect, useState, useRef } from 'react';
+const iOS = require('is-ios')
 
 function About() {
-  const [isClient, setIsClient] = useState(false);
-  const videoRef = useRef(null);
-  useEffect(() => {
-    setIsClient(true);
-
-    if (videoRef.current) {
-      videoRef.current.play().catch(() => {
-        // Handle the autoplay restriction gracefully
-      });
-    }
-  }, []);
   return (
     <section className="about-author section-padding">
       <div className="container with-pad">
@@ -20,17 +9,16 @@ function About() {
           <div className="col-lg-5 valign">
             <div className="profile-img">
               <div className="img rounded-lg">
-             {isClient && <video
-                autoPlay
+              <video
+                autoPlay={!iOS}
                 muted
-                ref={videoRef}
                 loop
                 playsinline
                 className="w-full h-full object-cover"
                 poster="https://res.cloudinary.com/storeino-academy/image/upload/v1724448050/cover_1_d5hae4.jpg"
                >
                 <source src="https://res.cloudinary.com/storeino-academy/video/upload/v1724442497/intro_lckanl.mp4" type="video/mp4" />
-              </video> }             
+              </video>             
               </div>
               <span className="icon">
                 <img src="https://res.cloudinary.com/storeino-academy/image/upload/v1724448251/icon2_h8l9jk.png" alt="" />
