@@ -1,6 +1,3 @@
-'use client'
-const iOS = require('is-ios')
-
 function About() {
   return (
     <section className="about-author section-padding">
@@ -10,12 +7,11 @@ function About() {
             <div className="profile-img">
               <div className="img rounded-lg">
               <video
-                autoPlay={!iOS}
                 muted
                 loop
                 playsinline
                 className="w-full h-full object-cover"
-                poster="https://res.cloudinary.com/storeino-academy/image/upload/v1724448050/cover_1_d5hae4.jpg"
+                poster="https://res.cloudinary.com/storeino-academy/image/upload/v1724519531/273646035_316236837126996_8970641440706135792_n_yqkgxq.jpg"
                >
                 <source src="https://res.cloudinary.com/storeino-academy/video/upload/v1724442497/intro_lckanl.mp4" type="video/mp4" />
               </video>             
