@@ -42,7 +42,7 @@ function About() {
                   specializing in creating impactful content from start to finish.
                 </h4>
                 <p>
-                We employ a comprehensive and holistic approach to every project, ensuring that every detail is meticulously crafted. Whether it&apos;s television, film, digital media, or live events, our goal is to bring your vision to life in the most creative and effective way possible.
+                {`We employ a comprehensive and holistic approach to every project, ensuring that every detail is meticulously crafted. Whether it's television, film, digital media, or live events, completing professionally prepared “news” reports, “reportages” and “documentary” tapes for television channels and audio-visual, electronic and written media. * Covering conferences, seminars, parties and events with modern digital cameras Completing audio-visual “advertising” segments for companies and public institutions in various fields. ** Filming “video clips” for emerging artists and talents. Filming teams composed of young professional photographers to film our goal is to bring your vision to life in the most creative and effective way possible.`}
                 </p>
 
                 <div className="numbers mt-50">

@@ -37,6 +37,50 @@ function Portfolio() {
       });
     });
   }
+  const data = [
+    {
+      title: 'Triathlon Premium Cup Larache',
+      desc: 'On July 7th, 2024, athletes from around the world gathered in the historic city of Larache, Morocco, to compete in the Triathlon Premium Cup. This prestigious event brought together elite competitors in a test of endurance, strength, and determination across swimming, cycling, and running disciplines. Our video captures the energy, spirit, and breathtaking scenery of this remarkable day, showcasing the dedication of the athletes and the vibrant culture of Larache. Dive into the action and experience the triumphs of the Triathlon Premium Cup Larache 2024.',
+      poster:'https://res.cloudinary.com/storeino-academy/image/upload/v1724448050/cover_1_d5hae4.jpg',
+      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1724442497/intro_lckanl.mp4'
+    },
+    {
+      title: 'THE SEA FESTIVAL',
+      desc: 'Opening of the third session of the Sea Festival in Larache, Morocco Jul 13, 2024 - The festive carnival started from August 20 Square, passing through Mohammed V Street, then Tahrir Square and Casablanca Street, arriving at the historic Bab El Bahr Square.',
+      poster:'https://res-console.cloudinary.com/storeino-academy/thumbnails/v1/video/upload/v1726249222/MDkxM194OHR1YWs=/grid_landscape',
+      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726249222/0913_x8tuak.mp4'
+    },
+    {
+      title: 'Fruit congel du nord',
+      desc: 'Celebrating excellence and dedication: honoring the hardworking team behind Red Fruits Production Company\'s success.',
+      poster:'https://res-console.cloudinary.com/storeino-academy/thumbnails/v1/video/upload/v1726250761/MDkxM18xX3o0Y2xnag==/grid_landscape',
+      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726250761/0913_1_z4clgj.mp4'
+    },
+    {
+      title:'Nafora school film',
+      desc:'Exploring the Heart of Education: A documentary exploring the study strategies, challenges and triumphs of our schools. Also documenting the end-of-year celebration with an atmosphere full of joy among the students and pride among the parents.',
+      poster:'',
+      src:''
+    },
+    {
+      title:'Maroc telecom',
+      desc:'Connecting Morocco with unparalleled speed and reliability - Maroc Telecom, your gateway to seamless communication.',
+      poster:'',
+      src:''
+    },
+    {
+      title:'Localisation by drone',
+      desc:'Elevate your perspective: Drones provide new perspectives to determine your location or the location of your project to make it easier to know where you are and attract more customers, by capturing every detail from above',
+      poster:'https://res-console.cloudinary.com/storeino-academy/thumbnails/v1/video/upload/v1726159865/SU1HXzE4MDBfenJ1ejQw/grid_landscape',
+      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726159865/IMG_1800_zruz40.mov'
+    },
+    {
+      title: 'Kaftan Photo Session',
+      desc: 'Immerse yourself in the elegance and tradition of the kaftan with our latest photo session. This video showcases the timeless beauty of the kaftan dress, capturing its intricate details and flowing grace. Set against a stunning backdrop, the session highlights the artistry and craftsmanship that make the kaftan a symbol of cultural heritage and modern sophistication. Join us in celebrating the allure of this iconic garment through a visual journey that blends fashion and tradition.',
+      poster:'https://res.cloudinary.com/storeino-academy/image/upload/v1724448022/cover_2_rhej62.jpg',
+      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1724442686/photo_session_bfihzr.mp4'
+    }
+  ]
   useEffect(() => {
     Playing();
 
@@ -71,17 +115,18 @@ function Portfolio() {
           </div>
         </div>
         <div className="cards">
-          <div className="card-item sub-bg">
+          { data.map((data,i)=>(
+             <div key={i} className="card-item sub-bg">
             <div className="row">
               <div className="col-lg-5">
                 <div className="cont">
                   <div>
                     
-                    <h4>Triathlon Premium Cup Larache</h4>
+                    <h4>{data.title}</h4>
                   </div>
                   <div>
                     <p>
-                    On July 7th, 2024, athletes from around the world gathered in the historic city of Larache, Morocco, to compete in the Triathlon Premium Cup. This prestigious event brought together elite competitors in a test of endurance, strength, and determination across swimming, cycling, and running disciplines. Our video captures the energy, spirit, and breathtaking scenery of this remarkable day, showcasing the dedication of the athletes and the vibrant culture of Larache. Dive into the action and experience the triumphs of the Triathlon Premium Cup Larache 2024.
+                    {data.desc}
                     </p>
                     <a href="/project-details" className="underline mt-15">
                       <span className="text main-color sub-title">
@@ -93,63 +138,16 @@ function Portfolio() {
               </div>
               <div className="col-lg-7">
                 <div className="img">
-                <video controls poster="https://res.cloudinary.com/storeino-academy/image/upload/v1724448050/cover_1_d5hae4.jpg" className="w-full h-full object-cover " >
-                <source src="https://res.cloudinary.com/storeino-academy/video/upload/v1724442497/intro_lckanl.mp4" type="video/mp4" />
+                <video controls poster={data.poster} className="w-full h-full object-cover " >
+                <source src={data.src} type="video/mp4" />
               </video>                 
               </div>
               </div>
             </div>
           </div>
-          <div className="card-item sub-bg">
-            <div className="row">
-              <div className="col-lg-5">
-                <div className="cont">
-                  <div>
-                    <div className="mb-15">
-                    </div>
-                    <h4>Kaftan Photo Session</h4>
-                  </div>
-                  <div>
-                    <p>
-                    Immerse yourself in the elegance and tradition of the kaftan with our latest photo session. This video showcases the timeless beauty of the kaftan dress, capturing its intricate details and flowing grace. Set against a stunning backdrop, the session highlights the artistry and craftsmanship that make the kaftan a symbol of cultural heritage and modern sophistication. Join us in celebrating the allure of this iconic garment through a visual journey that blends fashion and tradition.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="img" style={{ width: 'inherit' }}>
-                <video controls poster="https://res.cloudinary.com/storeino-academy/image/upload/v1724448022/cover_2_rhej62.jpg" className="w-full h-full object-cover " >
-                <source src="https://res.cloudinary.com/storeino-academy/video/upload/v1724442686/photo_session_bfihzr.mp4" type="video/mp4" />
-              </video>                  
-              </div>
-              </div>
-            </div>
-          </div>
-          <div className="card-item sub-bg">
-            <div className="row">
-              <div className="col-lg-5">
-                <div className="cont">
-                  <div>
-                    <div className="mb-15">
-                    </div>
-                    <h4>Discover Istanbul: A City of Timeless Wonders</h4>
-                  </div>
-                  <div>
-                    <p>
-                    Experience the captivating blend of history and modernity in our latest video showcasing the vibrant city of Istanbul. Through carefully crafted edits, we take you on a journey through the city&apos;s iconic landmarks, bustling streets, and serene waters. From the majestic domes of the Hagia Sophia to the lively bazaars and the scenic Bosphorus, this video captures the essence of a city that stands at the crossroads of East and West. Join us in exploring the sights and sounds of Istanbul, where every corner tells a story.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-7">
-              <div className="img" style={{ width: 'inherit' }}>
-                <video controls poster="https://res.cloudinary.com/storeino-academy/image/upload/v1724448026/cover_3_jn2kqo.jpg" className="w-full h-full object-cover " >
-                <source src="https://res.cloudinary.com/storeino-academy/video/upload/v1724442954/istanbul_adoj47.mp4" type="video/mp4" />
-              </video>                  
-              </div>
-              </div>
-            </div>
-          </div>
+          ))
+          }
+          
         </div>
       </div>
       <div className="sec-bottom mt-100">

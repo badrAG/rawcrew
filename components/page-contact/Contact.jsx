@@ -16,11 +16,11 @@ function Contact() {
               </div>
               <div className="morinfo mt-30 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Email</h6>
-                <p>rawcrew@gmail.com</p>
+                <p>Rawcrewcontact@gmail.com</p>
               </div>
 
               <div className="social-icon mt-50">
-                <a href="#0">
+                <a href="https://www.facebook.com/profile.php?id=61556256425651&mibextid=LQQJ4d" target='_blank'>
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 <a href="#0">
@@ -29,7 +29,7 @@ function Contact() {
                 <a href="#0">
                   <i className="fab fa-behance"></i>
                 </a>
-                <a href="https://instagram.com/rawcrew.maroc">
+                <a href="https://instagram.com/rawcrew.maroc" target='_blank'>
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>

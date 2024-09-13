@@ -18,7 +18,7 @@ function Footer() {
               1 Er Etage، Quartier El Menzah N° 07 <br /> Larache, Morocco
               </h6>
               <h6 className="mt-30 mb-15">
-                <a href="#0">rawcrew@gmail.com</a>
+                <a href="#0">Rawcrewcontact@gmail.com</a>
               </h6>
               <a href="#0" className="underline">
                 <span className="fz-22 main-color">+212 (0) 661-562-068</span>
@@ -46,12 +46,12 @@ function Footer() {
           </div>
           <div className="col-lg-3">
             <div className="column subscribe-minimal">
-              <ul className="rest social-icon d-flex align-items-center">
-                <li className="hover-this cursor-pointer">
-                  <a href="#0" className="hover-anim">
+              <div className="rest social-icon d-flex align-items-center">
+                <a href="https://www.facebook.com/profile.php?id=61556256425651&mibextid=LQQJ4d" target='_blank'  className="hover-this cursor-pointer">
+                  <div className="hover-anim">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
-                </li>
+                  </div>
+                </a>
                 <li className="hover-this cursor-pointer ml-10">
                   <a href="#0" className="hover-anim">
                     <i className="fab fa-dribbble"></i>
@@ -62,12 +62,12 @@ function Footer() {
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </li>
-                <li className="hover-this cursor-pointer ml-10">
-                  <a href="https://www.instagram.com/rawcrew.maroc" className="hover-anim">
+                <a href="https://www.instagram.com/rawcrew.maroc" target="_blank" className="hover-this cursor-pointer ml-10">
+                  <div  className="hover-anim">
                     <i className="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
