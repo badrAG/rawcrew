@@ -59,27 +59,27 @@ function Portfolio() {
     {
       title:'Nafora school film',
       desc:'Exploring the Heart of Education: A documentary exploring the study strategies, challenges and triumphs of our schools. Also documenting the end-of-year celebration with an atmosphere full of joy among the students and pride among the parents.',
-      poster:'',
-      src:''
+      poster:'https://res-console.cloudinary.com/storeino-academy/thumbnails/v1/video/upload/v1726254054/MDkxM18yX2JmdXZ4cw==/grid_landscape',
+      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726254054/0913_2_bfuvxs.mp4'
     },
     {
       title:'Maroc telecom',
       desc:'Connecting Morocco with unparalleled speed and reliability - Maroc Telecom, your gateway to seamless communication.',
-      poster:'',
-      src:''
+      poster:'https://res-console.cloudinary.com/storeino-academy/thumbnails/v1/video/upload/v1726256347/MDkxM18zX3lmYTNxaQ==/grid_landscape',
+      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726256347/0913_3_yfa3qi.mp4'
     },
     {
       title:'Localisation by drone',
       desc:'Elevate your perspective: Drones provide new perspectives to determine your location or the location of your project to make it easier to know where you are and attract more customers, by capturing every detail from above',
-      poster:'https://res-console.cloudinary.com/storeino-academy/thumbnails/v1/video/upload/v1726159865/SU1HXzE4MDBfenJ1ejQw/grid_landscape',
-      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726159865/IMG_1800_zruz40.mov'
-    },
-    {
-      title: 'Kaftan Photo Session',
-      desc: 'Immerse yourself in the elegance and tradition of the kaftan with our latest photo session. This video showcases the timeless beauty of the kaftan dress, capturing its intricate details and flowing grace. Set against a stunning backdrop, the session highlights the artistry and craftsmanship that make the kaftan a symbol of cultural heritage and modern sophistication. Join us in celebrating the allure of this iconic garment through a visual journey that blends fashion and tradition.',
-      poster:'https://res.cloudinary.com/storeino-academy/image/upload/v1724448022/cover_2_rhej62.jpg',
-      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1724442686/photo_session_bfihzr.mp4'
+      poster:'https://res.cloudinary.com/storeino-academy/image/upload/v1726254907/preview_mmmcrg.jpg',
+      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726307212/0914_1_t8uq0u.mp4'
     }
+    // ,  {
+    //   title: 'Kaftan Photo Session',
+    //   desc: 'Immerse yourself in the elegance and tradition of the kaftan with our latest photo session. This video showcases the timeless beauty of the kaftan dress, capturing its intricate details and flowing grace. Set against a stunning backdrop, the session highlights the artistry and craftsmanship that make the kaftan a symbol of cultural heritage and modern sophistication. Join us in celebrating the allure of this iconic garment through a visual journey that blends fashion and tradition.',
+    //   poster:'https://res.cloudinary.com/storeino-academy/image/upload/v1724448022/cover_2_rhej62.jpg',
+    //   src:'https://res.cloudinary.com/storeino-academy/video/upload/v1724442686/photo_session_bfihzr.mp4'
+    // }
   ]
   useEffect(() => {
     Playing();
