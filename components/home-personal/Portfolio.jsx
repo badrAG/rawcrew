@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import React, { useEffect } from 'react';
-
+import data from '@/data/project'
 function Portfolio() {
   function Playing() {
     gsap.registerPlugin(ScrollTrigger);
@@ -38,50 +38,7 @@ function Portfolio() {
       });
     });
   }
-  const data = [
-    {
-      title: 'Triathlon Premium Cup Larache',
-      desc: 'On July 7th, 2024, athletes from around the world gathered in the historic city of Larache, Morocco, to compete in the Triathlon Premium Cup. This prestigious event brought together elite competitors in a test of endurance, strength, and determination across swimming, cycling, and running disciplines. Our video captures the energy, spirit, and breathtaking scenery of this remarkable day, showcasing the dedication of the athletes and the vibrant culture of Larache. Dive into the action and experience the triumphs of the Triathlon Premium Cup Larache 2024.',
-      poster:'https://res.cloudinary.com/storeino-academy/image/upload/v1724448050/cover_1_d5hae4.jpg',
-      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1724442497/intro_lckanl.mp4'
-    },
-    {
-      title: 'THE SEA FESTIVAL',
-      desc: 'Opening of the third session of the Sea Festival in Larache, Morocco Jul 13, 2024 - The festive carnival started from August 20 Square, passing through Mohammed V Street, then Tahrir Square and Casablanca Street, arriving at the historic Bab El Bahr Square.',
-      poster:'https://res-console.cloudinary.com/storeino-academy/thumbnails/v1/video/upload/v1726249222/MDkxM194OHR1YWs=/grid_landscape',
-      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726249222/0913_x8tuak.mp4'
-    },
-    {
-      title: 'Fruit congel du nord',
-      desc: 'Celebrating excellence and dedication: honoring the hardworking team behind Red Fruits Production Company\'s success.',
-      poster:'https://res-console.cloudinary.com/storeino-academy/thumbnails/v1/video/upload/v1726250761/MDkxM18xX3o0Y2xnag==/grid_landscape',
-      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726250761/0913_1_z4clgj.mp4'
-    },
-    {
-      title:'Nafora school film',
-      desc:'Exploring the Heart of Education: A documentary exploring the study strategies, challenges and triumphs of our schools. Also documenting the end-of-year celebration with an atmosphere full of joy among the students and pride among the parents.',
-      poster:'https://res-console.cloudinary.com/storeino-academy/thumbnails/v1/video/upload/v1726254054/MDkxM18yX2JmdXZ4cw==/grid_landscape',
-      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726254054/0913_2_bfuvxs.mp4'
-    },
-    {
-      title:'Maroc telecom',
-      desc:'Connecting Morocco with unparalleled speed and reliability - Maroc Telecom, your gateway to seamless communication.',
-      poster:'https://res-console.cloudinary.com/storeino-academy/thumbnails/v1/video/upload/v1726256347/MDkxM18zX3lmYTNxaQ==/grid_landscape',
-      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726256347/0913_3_yfa3qi.mp4'
-    },
-    {
-      title:'Localisation by drone',
-      desc:'Elevate your perspective: Drones provide new perspectives to determine your location or the location of your project to make it easier to know where you are and attract more customers, by capturing every detail from above',
-      poster:'https://res.cloudinary.com/storeino-academy/image/upload/v1726254907/preview_mmmcrg.jpg',
-      src:'https://res.cloudinary.com/storeino-academy/video/upload/v1726307212/0914_1_t8uq0u.mp4'
-    }
-    // ,  {
-    //   title: 'Kaftan Photo Session',
-    //   desc: 'Immerse yourself in the elegance and tradition of the kaftan with our latest photo session. This video showcases the timeless beauty of the kaftan dress, capturing its intricate details and flowing grace. Set against a stunning backdrop, the session highlights the artistry and craftsmanship that make the kaftan a symbol of cultural heritage and modern sophistication. Join us in celebrating the allure of this iconic garment through a visual journey that blends fashion and tradition.',
-    //   poster:'https://res.cloudinary.com/storeino-academy/image/upload/v1724448022/cover_2_rhej62.jpg',
-    //   src:'https://res.cloudinary.com/storeino-academy/video/upload/v1724442686/photo_session_bfihzr.mp4'
-    // }
-  ]
+
   useEffect(() => {
     Playing();
 

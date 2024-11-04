@@ -112,7 +112,7 @@ function About() {
                       onClick={() => setSeeMore(!seeMore)}
                       className="text main-color sub-title"
                     >
-                      ... Read More <i class="ti-arrow-top-right"></i>
+                      ... Read More <i className="ti-arrow-top-right"></i>
                     </span>
                   )}
                   {!seeMore
