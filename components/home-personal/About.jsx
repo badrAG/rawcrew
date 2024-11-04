@@ -7,7 +7,7 @@ function About() {
   return (
     <section className="about-author section-padding">
       <div className="container with-pad">
-        <div className="row lg-marg">
+        <div className="row justify-center lg-marg">
           <div className="col-lg-5 valign">
             <div className="profile-img">
               <div className="img rounded-lg">
