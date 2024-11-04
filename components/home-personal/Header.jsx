@@ -52,7 +52,7 @@ function Header() {
                       href="/page-contact"
                       className="butn butn-md butn-bord radius-30"
                     >
-                      <span className="text">Contact Me</span>
+                      <span className="text">Contact Us</span>
                     </Link>
                     <div className="icon-img-60 ml-20">
                       <img

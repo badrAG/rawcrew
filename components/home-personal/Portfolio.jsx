@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import React, { useEffect } from 'react';
 
 function Portfolio() {
@@ -104,12 +105,12 @@ function Portfolio() {
               </h3>
             </div>
             <div className="ml-auto vi-more">
-              <a
-                href="/portfolio-grid"
+              <Link
+                href="/portfolio-projects"
                 className="butn butn-sm butn-bord radius-30"
               >
                 <span>View All</span>
-              </a>
+              </Link>
               <span className="icon ti-arrow-top-right"></span>
             </div>
           </div>

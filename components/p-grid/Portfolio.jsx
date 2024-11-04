@@ -37,7 +37,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="container">
-        <div className="gallery row md-marg">
+        <div className="gallery grid-rows-4 grid  md-marg">
           <div className="col-lg-4 col-md-6 items design">
             <div className="item mb-50">
               <div className="img">

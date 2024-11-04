@@ -14,7 +14,7 @@ function Services() {
                 </span>
               </h3>
             </div>
-            <div className="ml-auto vi-more">
+            {/* <div className="ml-auto vi-more">
               <a
                 href="/page-services"
                 className="butn butn-sm butn-bord radius-30"
@@ -22,7 +22,7 @@ function Services() {
                 <span>View All</span>
               </a>
               <span className="icon ti-arrow-top-right"></span>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="row">

@@ -7,17 +7,8 @@ import Footer from '@/components/common/Footer';
 import Marq2 from '@/components/common/Marq2';
 import Navbar from '@/components/common/Navbar';
 import Script from 'next/script';
-import Header from '@/components/home-personal/Header';
-import Clients from '@/components/common/Clients';
-
-import Blog from '@/components/home-digital-agency/Blog';
-
-import Testimonials from '@/components/home-modern-studio/Testimonials';
-import Marq from '@/components/home-personal/Marq';
-import About from '@/components/home-personal/About';
-import Services from '@/components/home-personal/Services';
-import Skills from '@/components/home-personal/Skills';
-import Portfolio from '@/components/home-personal/Portfolio';
+import Header from '@/components/p-projects/Header';
+import Portfolio from '@/components/p-projects/Portfolio';
 
 export const metadata = {
   title: 'rawcrew',
@@ -35,27 +26,20 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <body className="home-personal">
+    <body>
       <LoadingScreen />
       <Cursor />
       <ProgressScroll />
       <Lines />
-      <Navbar />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main className="main-bg o-hidden">
             <Header />
-            <Marq />
-            <About />
-            <Services />
             <Portfolio />
-            <Testimonials />
-            <Clients />
-            <Marq2 />
           </main>
-          <Footer />
         </div>
       </div>
+
       <Script
         src="/assets/js/ScrollTrigger.min.js"
         strategy="beforeInteractive"
@@ -64,18 +48,7 @@ export default function Home() {
         src="/assets/js/ScrollSmoother.min.js"
         strategy="beforeInteractive"
       />
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=G-7XPX9SQFQQ`} // Replace with your Measurement ID
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-7XPX9SQFQQ');
-        `}
-      </Script>
+
       <Script strategy="beforeInteractive" src="/assets/js/plugins.js"></Script>
       <Script
         strategy="beforeInteractive"
